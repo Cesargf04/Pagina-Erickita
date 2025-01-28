@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avance de la Tecnología</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>El Avance de la Tecnología</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#futuro">Futuro</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>Bienvenido a nuestra página sobre el avance de la tecnología. Aquí exploraremos cómo la tecnología ha evolucionado a lo largo del tiempo y cómo seguirá cambiando nuestro futuro.</p>
+            <img src="C:\Users\af281\OneDrive\Desktop\Pagina Web Erickita\IMG\Imagen 1.jpg" alt="Tecnología Inicial">
+        </section>
+
+        <section id="historia">
+            <h2>Historia de la Tecnología</h2>
+            <p>Desde la invención de la rueda hasta la inteligencia artificial, la tecnología ha sido una fuerza impulsora en la evolución humana. En esta sección, repasaremos los hitos más importantes.</p>
+            <img src="C:\Users\af281\OneDrive\Desktop\Pagina Web Erickita\IMG\Imagen 2.jpg" alt="Historia de la Tecnología">
+            <button onclick="mostrarMas()">Leer más</button>
+            <p id="masHistoria" style="display: none;">La revolución industrial, la invención de la electricidad, y el surgimiento de Internet son solo algunos de los momentos clave en la historia de la tecnología.</p>
+        </section>
+
+        <section id="futuro">
+            <h2>El Futuro de la Tecnología</h2>
+            <p>El futuro de la tecnología es emocionante y lleno de posibilidades. Desde la exploración espacial hasta la medicina personalizada, las próximas décadas prometen avances increíbles.</p>
+            <img src="C:\Users\af281\OneDrive\Desktop\Pagina Web Erickita\IMG\Imagen 3.jpg" alt="Futuro de la Tecnología">
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta o comentario? ¡No dudes en contactarnos!</p>
+            <img src="C:\Users\af281\OneDrive\Desktop\Pagina Web Erickita\IMG\Imagen 4.jpg" alt="Contacto">
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Avance de la Tecnología. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
